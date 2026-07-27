@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Get-Item 'C:\\\\mern stack\\\\logistics-main\\\\public\\\\logo.png' | Select-Object Name, Length\")",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\('C:\\\\mern stack\\\\logistics-main\\\\public\\\\logo.png'\\); \"$\\($img.Width\\)x$\\($img.Height\\)\")"
+    ]
+  }
+}
